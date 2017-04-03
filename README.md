@@ -19,13 +19,11 @@ In order to get Schema Reflector off the ground you will need:
 ### Installation
 
 To install Schema Reflector you will need to clone this repository into a
-directory on your machine. You can do this by running the command*:
+directory on your machine. You can do this by running the command:
 
 ```
 $ git clone https://github.com/ejrbuss/schema-reflector
 ```
-
-**You will need the appropriate credentials to clone from Bitbucket*
 
 ### Running Schema Reflector
 
