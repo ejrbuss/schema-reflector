@@ -102,7 +102,7 @@
                                     <h5 class="blue-text">Follow the Development</h5>
                                     <p class="grey-text grey-text text-darken-3">
                                         The repository for this project can be found on
-                                        BitBucket right <a class="blue-text" href="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone1/browse" target="_blank">here</a>.
+                                        Github right <a class="blue-text" href="https://github.com/ejrbuss/schema-reflector" target="_blank">here</a>.
                                         Let us know what you think of the project.
                                         <br>
                                         <br>

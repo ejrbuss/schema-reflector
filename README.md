@@ -1,4 +1,4 @@
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/public/images/title.png" height="160">
+<img src="public/images/title.png" height="160">
 
 Schema Reflector is a database analysis tool built for the software package
 OSCAR EMR. It offers generic analysis capabilities for any MySQL database
@@ -22,7 +22,7 @@ To install Schema Reflector you will need to clone this repository into a
 directory on your machine. You can do this by running the command*:
 
 ```
-$ git clone http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3
+$ git clone https://github.com/ejrbuss/schema-reflector
 ```
 
 **You will need the appropriate credentials to clone from Bitbucket*
@@ -60,7 +60,7 @@ In order to connect to your database click the **connect** navigation
 header at the top of the app home page. This should open the connection
 management page:
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/connect.png">
+<img src="screenshots/connect.png">
 
 Here you can edit connections you already have as well as add new ones. By
 default there will be at least one connection already configured. If a
@@ -69,7 +69,7 @@ of OSCAR EMR included with this application for demonstration purposes. To
 configure your own database click the **Add a New connection Button** to
 open a form:
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/connect-add.png">
+<img src="screenshots/connect-add.png">
 
 Here you can enter your database configuration information and
 connect to it. If the connection was succesful, it will appear in the
@@ -81,7 +81,7 @@ appear in red.
 When modifying a connection you can either "Connect" or "Clear Cache". Both
 of these actions will conect your database.
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/connect-edit.png">
+<img src="screenshots/connect-edit.png">
 
 Because MySQL reflection is slow we cache all database requests as well as
 any changes you make to diagrams within Schema Reflector. If your database
@@ -111,13 +111,13 @@ The *table view* provides a listing of all tables in a schema in alphabetic
 order. This view also provides quick access to viewing all of the columns
 in a particular table.
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/tables.png">
+<img src="screenshots/tables.png">
 
 After clicking a table you will be showed all of the column details for the
 given tables. Additionally you can press *View Context* to see the
 *concrete view* containing this table.
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/table.png">
+<img src="screenshots/table.png">
 
 ### Abstract View
 
@@ -126,7 +126,7 @@ The *abstract view* uses an algorithm described
 to cluster tables into abstract entities and relations. This can be a useful
 view for trying to gain a high level understanding of a monolithic piece of software.
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/abstract.png">
+<img src="screenshots/abstract.png">
 
 This view can be navigated with the mouse to translate the diagram as well
 as the scroll wheel to zoom in and out. Entities and relationships can be
@@ -152,7 +152,7 @@ Concrete view provides an Entity Relationship Diagram for your whole
 database. It provides tools for manipulating the diagram to find useful
 subsets of tables.
 
-<img src="http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/raw/screenshots/concrete.png">
+<img src="screenshots/concrete.png">
 
 In addition to explicity defined foreign keys in the schema, Schema
 Reflector also provides the means to find implicit foreighn keys based off

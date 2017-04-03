@@ -15,7 +15,7 @@ console.log(
 By Comif Relief
 
 Source available at:
-    http://jira.seng.uvic.ca:8051/projects/CR/repos/milestone3/browse
+    https://github.com/ejrbuss/schema-reflector
 
 SCHEMA Visualizer is an analysis tool for the software package OSCAR EMR.
 It is being developed as part of the University of Victorias Software
