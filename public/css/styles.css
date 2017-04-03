@@ -1,0 +1,142 @@
+/* Element Fixed */
+canvas { outline: none; }
+body {
+    background-color: #263238;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+nav img {
+    margin-top: 0.25em;
+    margin-left: 1em;
+    height: 3.5em;
+}
+
+/* Layout Helpers */
+.no-padding { padding: 0 !important; }
+.padding { padding: 1em; }
+.no-margin { margin: 0 !important; }
+.margin { margin: 1em; }
+.shift-left { margin-left: 1em !important; }
+.shift-right { margin-right: 1em !important; }
+.push-left { float: left; }
+.push-left li { float: left; }
+.push-right { float: right; }
+.push-right li { float: right; }
+.spacer { margin: 2em; }
+.pointer { cursor: pointer; }
+.fill {
+    width: 100%;
+    height: 100;
+}
+.upside-down {
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+/* Text Helpers */
+.bold { font-weight: bold; }
+.italics { font-style: italic; }
+.inline { display: inline-block; }
+.large-text { font-size: 6em; }
+.news-col {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+/* Animtation Helpers */
+.delay-1 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.delay-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.delay-3 {
+    -webkit-animationdelay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+/* Preloader */
+.preloader-background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.preloader-text {
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    left: 0;
+}
+.diagram-height {
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Materialize Overrides */
+.indicator { background: #2196f3 !important; }
+.input-field input:focus + label { color: #2196f3 !important; }
+ul.dropdown-content.select-dropdown li span { color: #2196f3; }
+nav .tab a {
+    font-size: 0.75em !important;
+    padding: 0.5em 1.5em 0.5em 1.5em !important;
+}
+.input-field input:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+
+/* Font-Awesome Overrides */
+.fa-img { font-size: 18em; }
+.btn-floating .fa { line-height: 30px !important; }
+.btn-floating { margin-top: 1em; }
+.btn-floating.selected,
+.btn-floating:active {
+    background: #2196f3 !important;
+}
+.btn-floating.selected i,
+.btn-floating:active i {
+    color: #FFFFFF !important;
+}
+
+/* Component CSS */
+#layouts-modal {
+    width: 285.4px;
+    position: absolute;
+    left: 7em;
+    top: 6.5em;
+    z-index: 100;
+}
+#removed-modal {
+    width: 285.4px;
+    position: absolute;
+    left: 7em;
+    top: 11.5em;
+    z-index: 100;
+}
+#removed-modal .btn {
+    margin-bottom: 2px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "schema-reflector",
+  "version": "0.2.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ebuss@jira.seng.uvic.ca:8051/scm/cr/milestone1.git"
+  },
+  "config": {
+    "port": 8080
+  },
+  "author": "ejrbuss, torreyr, colem, jonb",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "mysql": "^2.13.0"
+  }
+}

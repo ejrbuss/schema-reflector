@@ -1,0 +1,10 @@
+{
+    "dir": "Oscar",
+    "name": "Oscar",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "password": "",
+    "database": "oscar",
+    "source": "sources/oscar"
+}
